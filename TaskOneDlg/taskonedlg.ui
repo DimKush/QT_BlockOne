@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>750</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Первая задача</string>
+  </property>
+  <widget class="QPushButton" name="returnButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>410</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PowX">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>40</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PowX_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>10</y>
+     <width>16</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PowX_3">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>40</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PowX_4">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>40</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PowX_5">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>40</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PowX_6">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>40</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>=</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PowX_7">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>40</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="countButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>410</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Посчитать</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditA">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditB">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditC">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>40</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DescText">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>481</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>D =</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="X1Text">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>130</y>
+     <width>481</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>X1 =</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="X2Text">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>175</y>
+     <width>481</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>X2 =</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
