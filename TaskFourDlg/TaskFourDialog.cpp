@@ -29,5 +29,5 @@ void TaskFourDialog::on_CheckButton_clicked()
     QTextDocument *doc = ui->textEdit->document();
     doc->setDefaultFont(fontSample);
 
-   // ui->textEdited->insertPlainText(doc->QString);
+    ui->textEdited->setDocument(doc);
 }
