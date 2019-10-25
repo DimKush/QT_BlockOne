@@ -13,7 +13,7 @@ class TaskTwoDlg : public QDialog
 
 public:
      explicit TaskTwoDlg(QWidget *parent = nullptr);
-     ~TaskTwoDlg();
+     virtual ~TaskTwoDlg();
 
 private:
     Ui::TaskTwoDialog *ui;

@@ -13,7 +13,7 @@ class TaskThreeDlg : public QDialog
 
 public:
     explicit TaskThreeDlg(QWidget *parent = nullptr);
-    ~TaskThreeDlg();
+    virtual ~TaskThreeDlg();
 
 private slots:
     void on_SetText_clicked();

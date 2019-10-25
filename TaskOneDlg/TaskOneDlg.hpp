@@ -13,7 +13,7 @@ class TaskOneDlg : public QDialog
 
 public:
     TaskOneDlg (QWidget * parent = nullptr);
-    ~TaskOneDlg();
+    virtual ~TaskOneDlg();
 
 private:
     Ui::Dialog *ui;

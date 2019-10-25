@@ -4,7 +4,7 @@
 #include "TaskOneDlg/TaskOneDlg.hpp"
 #include "TaskTwoDlg/TaskTwoDlg.hpp"
 #include "TaskThreeDlg/TaskThreeDlg.hpp"
-#include "TaskFourDlg/TaskFourDialog.hpp"
+#include "TaskFourDlg/TaskFourDlg.hpp"
 
 #include <QApplication>
 #include <QWindow>
